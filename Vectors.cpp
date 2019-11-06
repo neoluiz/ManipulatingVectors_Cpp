@@ -117,7 +117,7 @@ int readNumber()
 void readName(char nome[30])
 {
     
-    printf("\n\nEnter a name:\n\n  -  ");
+    printf("\n\nEnter a name\n\n  -  ");
     fflush(stdin);
     gets(nome);
 }
