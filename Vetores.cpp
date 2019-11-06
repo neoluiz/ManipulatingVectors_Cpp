@@ -302,7 +302,7 @@ void VerificarMaiorIndice(int VetorNumerico[100], char VetorString[100][30], int
                     indice=i;
                 }
             }
-            printf("\n\nO indice do maior elemenro ordem alfabetica esta armazenado na posicao %d",indice);
+            printf("\n\nO indice do maior elemento em ordem alfabetica esta armazenado na posicao %d",indice);
             break;
     }
 }
@@ -412,7 +412,7 @@ void InserirElementosIII (int VetorNumerico[100], char VetorString[100][30], int
     switch(escolha)
     {
         case 1:
-            printf("\n\nDeseja inserir antes de que elemento..\n");
+            printf("\n\nDeseja inserir antes de que elemento...\n");
             MostrarElementos(VetorNumerico,VetorString,contchar,contnum,escolha);
             printf("\n  -  ");
             scanf("%d",&num);
@@ -445,7 +445,7 @@ void InserirElementosIII (int VetorNumerico[100], char VetorString[100][30], int
             break;
 
        case 2:
-            printf("Deseja inserir antes de que nome..\n");
+            printf("Deseja inserir antes de que nome...\n");
             MostrarElementos(VetorNumerico,VetorString,contchar,contnum,escolha);
             printf("\n  -  ");
             fflush(stdin);
@@ -492,7 +492,7 @@ void InserirElementosIV(int VetorNumerico[100], char VetorString[100][30], int &
      {
          
             case 1:
-                printf("Deseja inserir depois de que elemento..\n");
+                printf("Deseja inserir depois de que elemento...\n");
                 MostrarElementos(VetorNumerico,VetorString,contchar,contnum,escolha);
                 printf("\n  -  ");
                 scanf("%d",&num);
@@ -533,7 +533,7 @@ void InserirElementosIV(int VetorNumerico[100], char VetorString[100][30], int &
                 break;
 
         case 2:
-            printf("\n\nDeseja inserir depois de que nome..\n");
+            printf("\n\nDeseja inserir depois de que nome...\n");
             MostrarElementos(VetorNumerico,VetorString,contchar,contnum,escolha);
             printf("\n  -  ");
             fflush(stdin);
@@ -670,7 +670,7 @@ main()
         }
         do
         {
-            printf("\n\nDeseja continuar..<S/N>\n\n  -  ");
+            printf("\n\nDeseja continuar...<S/N>\n\n  -  ");
             fflush(stdin);
             scanf("%c",&resp);
             if(resp!='s' && resp!='S' && resp!='n' && resp!='N')
