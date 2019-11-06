@@ -5,7 +5,7 @@
 VETORES/VECTORS
 
 
------ Português -----
+------ Português ------
 
 O objetivo foi manipular vetores (1xN) utilizando a linguagem de programação C++. Assim sendo, os seguintes problemas foram propostos e implementados:
 1. Inserir um elemento no início do vetor;
@@ -20,7 +20,7 @@ O objetivo foi manipular vetores (1xN) utilizando a linguagem de programação C
 8. Encontrar a posição do menor elemento do vetor;
 9. Mostrar os elemento do vetor;
 
------ English -----
+------ English ------
 
 The goal was to manipulate vectors (1xN) using the C ++ programming language. Therefore, the following problems were proposed and implemented:
 1. Insert an element at the beginning of the vector;
