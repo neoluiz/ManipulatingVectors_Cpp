@@ -31,7 +31,7 @@ void LerOpcao(int &escolha)
         scanf("%d",&escolha);
         if(escolha!=1 && escolha!=2)
         {
-            printf("\n\nOpcao Invalida!! Tente Novamente!!\n\n");
+            printf("\n\nOpcao invalida! Tente novamente!\n\n");
         }
     }
     while(escolha!=1 && escolha!=2);
@@ -57,7 +57,7 @@ int EscolherOpcao()
         scanf("%d",&opcao);
         if(opcao<1 || opcao>9)
         {
-            printf("\n\nOpcao Invalida!! Tente Novamente\n\n");
+            printf("\n\nOpcao invalida! Tente novamente!\n\n");
         }
     }
     while(opcao<1 || opcao>9);
@@ -79,7 +79,7 @@ int EscolherOpcaoII()
         scanf("%d",&opcao);
         if(opcao<5 || opcao>9)
         {
-            printf("\n\nOpcao Invalida!! Tente Novamente!!\n\n");
+            printf("\n\nOpcao invalida! Tente novamente!\n\n");
         }
     }
     while(opcao<5 || opcao>9);
@@ -98,7 +98,7 @@ int EscolherOpcaoIII()
         scanf("%d",&opcao);
         if(opcao!=1 && opcao!=2)
         {
-            printf("\n\nOpcao Invalida!! Tente Novamente\n\n");
+            printf("\n\nOpcao invalida! Tente novamente!\n\n");
         }
     }
     while(opcao!=1 && opcao!=2);
@@ -143,7 +143,7 @@ void InserirElementoInicio(int VetorNumerico[100], char VetorString[100][30], in
             {
                 if(contnum>=100)
                 {
-                    printf("\n\nO Vetor Numerico ja esta completo\n\n");
+                    printf("\n\nO Vetor numerico ja esta completo\n\n");
                 }
                 else
                 {
@@ -176,7 +176,7 @@ void InserirElementoInicio(int VetorNumerico[100], char VetorString[100][30], in
             {
                 if(contchar>=100)
                 {   
-                    printf("\n\nO Vetor de String ja esta cheio\n\n");
+                    printf("\n\nO Vetor de string ja esta cheio\n\n");
                 }
                 else
                 {
@@ -210,7 +210,7 @@ void InserirElementoFinal(int VetorNumerico[100], char VetorString[100][30], int
         case 1:
             if(contnum>=100)
             {
-                printf("\n\nO Vetor Numerico ja esta completo\n\n");
+                printf("\n\nO Vetor numerico ja esta completo\n\n");
             }
             else
             {
@@ -224,7 +224,7 @@ void InserirElementoFinal(int VetorNumerico[100], char VetorString[100][30], int
         case 2:
             if(contchar>=100)
             {
-                printf("\n\nO Vetor de String ja esta cheio\n\n");
+                printf("\n\nO Vetor de string ja esta cheio\n\n");
             }
             else
             {
@@ -675,7 +675,7 @@ main()
             scanf("%c",&resp);
             if(resp!='s' && resp!='S' && resp!='n' && resp!='N')
             {
-                printf("\n\nOpcao invalida!! Tente novamente!!\n\n");
+                printf("\n\nOpcao invalida! Tente novamente!\n\n");
             }
         }
         while(resp!='s' && resp!='S' && resp!='n' && resp!='N');

@@ -27,7 +27,7 @@ The goal was to manipulate vectors (1xN) using the C ++ programming language. Th
 2. Insert an element at the end of the vector;
 3. Insert an element before an informed element;
   NOTE: If the informed element does not exist, the insertion will be at the end of the vector;
-4. Insert an element after an informed element
+4. Insert an element after an informed element;
   NOTE: If the informed element does not exist, the insertion will be at the beginning of vector;
 5. Find the largest element of the vector;
 6. Find the smallest element of the vector;
