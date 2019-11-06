@@ -20,6 +20,8 @@ O objetivo foi manipular vetores (1xN) utilizando a linguagem de programação C
 8. Encontrar a posição do menor elemento do vetor;
 9. Mostrar os elemento do vetor;
 
+Finalizando, o código foi escrito para ser exeutado no Windows. Alterações, com a adição de pacotes(includes), podem ser necessárias para execução em outros Sistemas Operacionais.
+
 ------ English ------
 
 The goal was to manipulate vectors (1xN) using the C ++ programming language. Therefore, the following problems were proposed and implemented:
@@ -34,5 +36,8 @@ The goal was to manipulate vectors (1xN) using the C ++ programming language. Th
 7. Find the position of the largest element of the vector;
 8. Find the position of the smallest vector element;
 9. Show the vector elements;
+
+
+Finally, the code was written to run on Windows. Changes, with the addition of packages (includes), may be required for execution on other Operating Systems.
 
 
